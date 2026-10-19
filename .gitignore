@@ -1,0 +1,62 @@
+# Altium Designer project files
+#*.PrjPCBStructure
+#*.PrjPcb
+*.SchDocPreview
+*.PcbDocPreview
+#*.OutJob
+*.ProjectParameters
+
+# Altium generated outputs
+*.DRR
+*.REP
+*.LOG
+*.TXT
+*.HTM
+*.HTML
+*.MNF
+*.XML
+
+# Gerber and drill files
+*.GB*
+*.GTL
+*.GTS
+*.GTO
+*.GML
+*.GKO
+*.TXT
+*.NC*
+*.DRL
+
+# Temporary and backup files
+~$*
+*.bak
+*.tmp
+*.Temp
+*.dmt
+*.xlt
+*.bkp
+
+# Altium cache and preview folders
+/Heat_Exchanger_IO/__Previews/*
+/Heat_Exchanger_IO/Project Outputs for Heat_Exchanger_IO/*
+/Heat_Exchanger_IO/Outputs/*
+/Heat_Exchanger_IO/Generated/*
+/Heat_Exchanger_IO/Temp/*
+/Heat_Exchanger_IO/Backup/*
+/Heat_Exchanger_LCD/__Previews/*
+/Heat_Exchanger_LCD/Project Outputs for Heat_Exchanger_LCD/*
+/Heat_Exchanger_LCD/Outputs/*
+/Heat_Exchanger_LCD/Generated/*
+/Heat_Exchanger_LCD/Temp/*
+/Heat_Exchanger_LCD/Backup/*
+
+# Other non-essential
+*.zip
+*.7z
+*.rar
+
+# Ignore 3D models unless required
+*.STEP
+*.STP
+*.IGS
+*.IGES
