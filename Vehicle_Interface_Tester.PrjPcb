@@ -169,23 +169,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BVMJHODF
 
 [Document8]
-DocumentPath=USB_Host_Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=8
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OLAMYPPW
-
-[Document9]
 DocumentPath=OBD_II_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EESNFYVO
 
-[Document10]
+[Document9]
 DocumentPath=Vehicle_Interface_Tester.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,14 +202,31 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWPVTHGU
 
-[Document11]
-DocumentPath=JTAG_Programmer_Interface.SchDoc
+[Document10]
+DocumentPath=JTAG_Rig_Programmer_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=14
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ITTNJVYH
+
+[Document11]
+DocumentPath=JTAG_Product_Programmer_Interface.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -237,30 +237,13 @@ GenerateClassCluster=0
 DocumentUniqueId=VXOEEQSV
 
 [Document12]
-DocumentPath=5V_Buck.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ELZSAWGQ
-
-[Document13]
 DocumentPath=Power_Supplies.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -270,8 +253,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XUXVAPTH
 
-[Document14]
+[Document13]
 DocumentPath=14V_Buck.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QIAJXFSS
+
+[Document14]
+DocumentPath=Vehicle_Interface_Tester_Outputs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -285,7 +285,52 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QIAJXFSS
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=3V3_Buck.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=15
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LSTAMMYB
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\BOM\Bill of Materials-Vehicle_Interface_Tester.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Pick Place for Vehicle_Interface_Tester.txt
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Free Documents\Gerber\Vehicle_Interface_Tester.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Vehicle_Interface_Tester.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\ProtelNetlist\Vehicle_Interface_Tester.NET
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Vehicle_Interface_Tester.REP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\ExportSTEP\Vehicle_Interface_Tester.step
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
