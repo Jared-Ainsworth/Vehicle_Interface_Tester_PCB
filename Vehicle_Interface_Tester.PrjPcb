@@ -309,26 +309,30 @@ DocumentPath=Project Outputs for Vehicle_Interface_Tester\BOM\Bill of Materials-
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Pick Place for Vehicle_Interface_Tester.txt
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Design Rule Check - Vehicle_Interface_Tester.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\Gerber\Vehicle_Interface_Tester.EXTREP
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Pick Place for Vehicle_Interface_Tester.txt
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Vehicle_Interface_Tester.EXTREP
+DocumentPath=Project Outputs for Free Documents\Gerber\Vehicle_Interface_Tester.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Vehicle_Interface_Tester\ProtelNetlist\Vehicle_Interface_Tester.NET
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Vehicle_Interface_Tester.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Vehicle_Interface_Tester.REP
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\ProtelNetlist\Vehicle_Interface_Tester.NET
 DItemRevisionGUID=
 
 [GeneratedDocument7]
+DocumentPath=Project Outputs for Vehicle_Interface_Tester\Gerber\Vehicle_Interface_Tester.REP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Vehicle_Interface_Tester\ExportSTEP\Vehicle_Interface_Tester.step
 DItemRevisionGUID=
 
