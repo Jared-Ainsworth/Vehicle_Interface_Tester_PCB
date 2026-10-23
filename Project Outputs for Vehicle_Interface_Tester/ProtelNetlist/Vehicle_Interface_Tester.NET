@@ -328,7 +328,7 @@ HC-PM127-4.3H-2x20PS
 ]
 [
 J2
-Connector 4 pos 532610001-SD_04_MOL
+Connector 4 pos PicoBlade Molex 532610001
 532610471
 
 
@@ -336,7 +336,7 @@ Connector 4 pos 532610001-SD_04_MOL
 ]
 [
 J3
-Connector 5 pos MOLEX_532610571
+Connector 5 pos PicoBlade Molex 532610571
 532610671
 
 
@@ -344,7 +344,7 @@ Connector 5 pos MOLEX_532610571
 ]
 [
 J4
-Connector 6 pos 532610001-SD_06_MOL
+Connector 6 pos PicoBlade Molex 532610001
 532610571
 
 
@@ -352,7 +352,7 @@ Connector 6 pos 532610001-SD_06_MOL
 ]
 [
 J5
-Connector 6 pos 532610001-SD_06_MOL
+Connector 6 pos PicoBlade Molex 532610001
 532610571
 
 
@@ -376,8 +376,8 @@ USB4800-03-A
 ]
 [
 J8
-Tag-Connect / TC2030-MCP-NL
-JTAG Tag-Connect / TC2030-MCP-NL
+Connector 14 Pos Samtec SHF-107-01-L-D-SM
+JTAG 14 Pos Header 1.27mm Pitch (.5") (ST Micro)
 
 
 
@@ -600,7 +600,7 @@ R0805 (2012), TIGHT
 ]
 [
 R9
-R0402 (1005)
+R0402 (1005), TIGHT
 10K
 
 
@@ -608,7 +608,7 @@ R0402 (1005)
 ]
 [
 R10
-R0402 (1005)
+R0402 (1005), TIGHT
 10K
 
 
@@ -656,7 +656,7 @@ R0402 (1005), TIGHT
 ]
 [
 R16
-R0402 (1005), TIGHT
+R0402 (1005)
 10K
 
 
@@ -680,7 +680,7 @@ R0402 (1005)
 ]
 [
 R19
-R0402 (1005), TIGHT
+R0402 (1005)
 10K
 
 
@@ -816,26 +816,26 @@ R7-1
 (
 USB_D_P
 J3-3
-L1-3
+L1-4
 )
 (
 USB_D_N
 J3-2
-L1-4
+L1-3
 )
 (
 USB_CONN_P
 D5-2
 J7-A6
 J7-B6
-L1-2
+L1-1
 )
 (
 USB_CONN_N
 D6-2
 J7-A7
 J7-B7
-L1-1
+L1-2
 )
 (
 NetR23_1
@@ -1114,6 +1114,7 @@ J6-3
 J7-A1_B12
 J7-B1_A12
 J8-5
+J8-7
 J9-5
 J10-5
 J11-5
@@ -1216,17 +1217,17 @@ MD1-28
 BLE_RESET
 C7-1
 J1-36
-J8-3
+J8-12
 MD1-23
 )
 (
 BLE_MODULE_SWDIO
-J8-2
+J8-4
 MD1-35
 )
 (
 BLE_MODULE_SWCLK
-J8-4
+J8-6
 MD1-34
 )
 (
@@ -1283,7 +1284,7 @@ C23-1
 C24-1
 C25-1
 C26-1
-J8-1
+J8-3
 J11-1
 L3-2
 MD1-16
