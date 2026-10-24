@@ -1,0 +1,117 @@
+Protel Design System Design Rule Check
+PCB File : C:\GIT_local\Vehicle_Interface_Tester_PCB\Vehicle_Interface_Tester.PcbDoc
+Date     : 10/23/2026
+Time     : 9:09:08 PM
+
+Processing Rule : Clearance Constraint (Gap=0.178mm) (Disabled)(InPolygon),((InComponent('U1') OR InComponent('U3')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InPolygon),(InPolygon)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Violation between Clearance Constraint: (0.033mm < 0.127mm) Between Arc (38.7mm,-48.94mm) on Keep-Out Layer And Pad J7-A1_B12(38.8mm,-50.075mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.033mm < 0.127mm) Between Arc (45.3mm,-48.94mm) on Keep-Out Layer And Pad J7-B1_A12(45.2mm,-50.075mm) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Clearance Constraint (Gap=0.165mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) ((HasFootprint('Single Pin Receptacle'))),((HasFootprint('Fuse NO BOM')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNet('CHASSIS')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (Disabled)(Hole),((HasFootprint('9POS D-Sub male Hearting 09551296822741')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (Disabled)(Hole),(InPolygon)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InComponent('U5')),(IsVia)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=0.5mm) (Preferred=0.2mm) (InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.102mm) (Max=0.635mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=1.016mm) (Preferred=0.2mm) ((InNet('3V3') OR InNet('V-Batt')OR InNet('V-Bus') OR InNet('6V') OR InNet('24V') OR InNet('GND') OR InNet('NetC48_2') OR InNet('NetC43_2') OR InNet('NetFB5_1') OR InNet('Buck-IN') OR InNet('Buck-SW') OR InNet('14V') OR InNet('~14V')OR InNet('24V_In')OR InNet('24V_Fused')OR InNet('30V_Clamped')))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.508mm) (Max=3.81mm) (Preferred=1.27mm) (InNet('CHASSIS'))
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0mm) (Conductor Width=0.254mm) (Air Gap=0.127mm) (Entries=4) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.102mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.127mm) (Max=4mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.127mm) (Max=25.4mm) (HasFootprint('8-32 with washer with contact Mounting Hole'))
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.127mm) (Max=25.4mm) (HasFootprint('IG-010 Mount'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.102mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.765mm < 1mm) Between Board Edge And Pad J10-(83.725mm,11.175mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.765mm < 1mm) Between Board Edge And Pad J10-(83.725mm,4.825mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.765mm < 1mm) Between Board Edge And Pad J11-(-83.725mm,11.175mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.765mm < 1mm) Between Board Edge And Pad J11-(-83.725mm,4.825mm) on Multi-Layer 
+Rule Violations :4
+
+Processing Rule : Matched Lengths(Tolerance=0.381mm) (Disabled)(InNetClass('SDRAM_Data'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.381mm) (Disabled)(InNetClass('SDRAM_Address'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.381mm) ((InNetClass('SDRAM_Address') OR InNetClass('SDRAM_Control') OR InNetClass('SDRAM_Data')))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.381mm) (InNetClass('LCD_Control'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Disabled)(All)
+Rule Violations :0
+
+
+Violations Detected : 6
+Waived Violations : 0
+Time Elapsed        : 00:00:01
